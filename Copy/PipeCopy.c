@@ -78,6 +78,6 @@ int main(int argc, char *argv[]) {
     close(pipefd[1]);
     waitpid(reader_pid, NULL, 0);
     waitpid(writer_pid, NULL, 0);
-    printf("Pipe copy completed.\n");
+    printf("PipeCopy completed.\n");
     return 0;
 } 

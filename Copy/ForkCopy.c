@@ -28,6 +28,6 @@ int main(int argc, char *argv[]) {
                    pid, WEXITSTATUS(status));
         }
     }
-
+    printf("ForkCopy completed.\n");
     return 0;
 }

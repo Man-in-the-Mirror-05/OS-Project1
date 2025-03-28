@@ -38,5 +38,6 @@ int main(int argc, char *argv[]) {
 
     close(src_fd);
     close(dest_fd);
+    printf("MyCopy completed.\n");
     return 0;
 }
